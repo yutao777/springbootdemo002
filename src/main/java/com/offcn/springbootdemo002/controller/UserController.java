@@ -25,8 +25,8 @@ public class UserController {
     /***
      * 获取全部用户信息
      * @return
-     */
-    @GetMapping("/")
+     */aaa
+    @GetMapping("/a'a'a")
     public String getUserList(Model model){
         List<User> list = userService.getUserList();
         model.addAttribute("page", list);
